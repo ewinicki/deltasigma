@@ -1,0 +1,53 @@
+Mauricio Gomez
+Elliott Winicki
+
+Delta Sigma Simulator
+
+Installation:
+   Install Python 3.6
+
+   Required libraries:
+      numpy
+      scipy
+      matplotlib
+      pandas
+      pyqt5
+
+   Install libraries with 1 or 2:
+      1. pip install numpy, scipy, matplotlib, pyqt5
+      2*. conda install numpy, scipy, matplotlib, pyqt5
+
+      * 2 Preferred method. Requires installing miniconda from this website:
+         https://conda.io/miniconda.html
+
+Run GUI:
+   Command line: Navigate to folder and type the following command:
+      ./main.py
+
+   IDE:
+      open main.py and select run
+
+CLI Usage:
+      usage: deltasigma.py [-h] [-f FREQ] [-a AMPL] [-w WAVE] [-s SAMP] [-d DC]
+                           [-n NOISE] [-sr SR] [-o OSR] [-v VREF] [-p PER]
+                           [-or ORDER]
+      
+      optional arguments:
+        -h, --help            show this help message and exit
+        -f FREQ, --freq FREQ  Input frequency
+        -a AMPL, --ampl AMPL  Input amplitude
+        -w WAVE, --wave WAVE  Input waveform
+        -s SAMP, --samp SAMP  Input samples
+        -d DC, --dc DC        DC offset
+        -n NOISE, --noise NOISE
+                              Add noise
+        -sr SR, --sr SR       Sampling rate
+        -o OSR, --osr OSR     Oversampling multiplier
+        -v VREF, --vref VREF  Reference voltage
+        -p PER, --per PER     Number of periods
+        -or ORDER, --order ORDER
+                              First or Second order
+
+Program:
+   1. Enter desired values in appropriate fields.
+   2. Click the green 'Run' button
